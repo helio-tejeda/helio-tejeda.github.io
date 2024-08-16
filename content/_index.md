@@ -8,22 +8,42 @@ design:
   spacing: "6rem"
 
 sections:
+  #- block: resume-biography
+  #  content:
+  #    # The user's folder name in `content/authors/`
+  #    username: admin
+  #    # Show a call-to-action button under your biography? (optional)
+  #    # To link to a file, upload it to your `static/uploads/` folder
+  #    button:
+  #      text: Download Résumé
+  #      url: uploads/resume.pdf
+  #  design:
+  #    banner:
+  #      # Upload a cover image to `assets/media/` folder and reference its filename here (optional)
+  #      filename: ''
+  #    biography:
+  #      # Customize the CSS style of your biography text (optional)
+  #      style: ''
   - block: hero
     content:
-      title: Write Docs Fast, Focus on Your Content
-      text: The easy, no-code technical documentation solution your users will love 🎉
+      title: |
+        <img src="/images/htejeda-cartoon.png" style="margin: auto; margin-bottom: 1em"/>
+        Heliodoro Tejeda Lemus
+      text: |
+        A fifth year Ph.D. student aiming to understand and optimize human-ai
+        collaboration and teaming.
       primary_action:
-        text: Get Started
+        text: GitHub
         url: https://hugoblox.com/templates/details/docs/
         icon: rocket-launch
       secondary_action:
-        text: Read the docs
-        url: /docs/
+        text: Google Scholar Page
+        url: "https://scholar.google.com/citations?user=EKvwKb4AAAAJ&hl=en"
       announcement:
-        text: "Announcing the release of version 2."
+        text: "The Calibration Gap between Model and Human Confidence in LLMs"
         link:
           text: "Read more"
-          url: "/blog/"
+          url: "https://arxiv.org/abs/2401.13835"
     design:
       spacing:
         padding: [0, 0, 0, 0]
