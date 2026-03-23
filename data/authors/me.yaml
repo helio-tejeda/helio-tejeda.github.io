@@ -10,10 +10,10 @@ status:
   icon: "🎓"  # 🧠🤖Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
 role: Ph.D. Candidate
 email: htejeda@uci.edu
-bio: |
-  I am a cognitive science researcher and graduate student at the University of California, Irvine.
+bio: | # I am a cognitive science researcher and Ph.D. Candidate at the University of California, Irvine.
+  I am a Ph.D. Candidate at the University of California, Irvine.
   I explore how humans and artificial intelligence (AI) work together to make better decisions.
-  My research focuses on human-AI interaction, decision-making, and the role of confidence in shaping how people trust AI.
+  My research focuses on human-AI interaction, AI-assisted decision-making, and the role of confidence in shaping how people trust AI.
 
 affiliations:
   - name: MADLAB - UC Irvine
