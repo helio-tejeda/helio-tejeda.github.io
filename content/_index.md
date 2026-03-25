@@ -53,7 +53,7 @@ sections:
     content:
       title: Experience
       # Change this to true to list Education first
-      is_education_first: true
+      #is_education_first: true
       date_format: Jan 2006
       items:
         #- title: Senior Software Engineer
@@ -142,16 +142,62 @@ sections:
       title: "Tech Stack"
       subtitle: "Technologies I use to build things"
       categories:
-        - name: Languages
+        - name: Programming Languages
           items:
-            #- name: TypeScript
-            #  icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
             - name: Python
               icon: devicon/python
-            #- name: Go
-            #  icon: devicon/go
+            - name: MATLAB
+              icon: devicon/matlab
+            - name: Java
+              icon: devicon/java
+            - name: C/C++
+              icon: devicon/cplusplus
+        - name: Databases
+          items:
+            - name: MySQL
+              icon: devicon/mysql
+            - name: PostgreSQL
+              icon: devicon/postgresql
+            - name: SQLite
+              icon: devicon/sqlite
+            - name: BigQuery
+              icon: devicon/googlecloud
+            - name: Firebase
+              icon: devicon/firebase
+        - name: Web Development
+          items:
+            - name: HTML
+              icon: devicon/html5
+            - name: CSS
+              icon: devicon/css3
+            - name: JavaScript
+              icon: devicon/javascript
+            - name: D3.js
+              icon: devicon/d3js
+            - name: PHP
+              icon: devicon/php
+            - name: Heroku
+              icon: devicon/heroku
+            - name: Hugo
+              icon: brands/hugo
+        - name: Python Toolkit
+          items:
+            - name: PyTorch
+              icon: devicon/pytorch
+            - name: Tensorflow
+              icon: devicon/tensorflow
+            - name: OpenCV
+              icon: devicon/opencv
+            - name: Scikit-Learn
+              icon: devicon/scikitlearn
+            - name: Matplotlib
+              icon: devicon/matplotlib
+            - name: NumPy
+              icon: devicon/numpy
+            - name: Pandas
+              icon: devicon/pandas
+            - name: Jupyter
+              icon: devicon/jupyter
         #- name: Frontend
         #  items:
         #    - name: React
