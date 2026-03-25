@@ -71,14 +71,66 @@ education:
     #  url: https://github.com/alexjohnson/senior-project
     #  icon: brands/github
 
-#experience:
-#  - role: Senior Software Engineer
-#    org: Tech Corp
-#    start: 2023-01-01
-#    summary: |
-#      Lead development of microservices architecture serving 1M+ users.
-#      Improved API response time by 40% through optimization.
-#      Mentored team of 5 junior developers.
+experience:
+  - role: Graduate Student Researcher
+    org: University of California, Irvine
+    start: 2020-09-01
+    summary: |
+      <ul>
+        <li>
+          Designed and implemented online behavioral experiments to investigate human–AI collaboration and decision-making processes.
+        </li>
+        <li>
+          Examined how individuals integrate AI-advice into their judgments and choices using computational and statistical analysis methods.
+        </li>
+        <li>
+          Contributed to the development of experimental paradigms, data collection pipelines, and analysis frameworks for large-scale online studies.
+        </li>
+        <li>
+          Co-authored research manuscripts and presented findings at academic conferences and seminars.
+        </li>
+      </ul>
+  - role: Instructor of Record
+    org: University of California, Irvine
+    start: 2026-01-01
+    end: 2026-03-01
+    summary: |
+      <ul>
+        <li>
+          Designed and delivered a full undergraduate statistics course for 170 students, generating all course materials including lectures, homework assignments, quizzes, exams, and projects.
+        </li>
+        <li>
+          Implemented interactive lessons that encouraged active student participation, including in-class problem solving and student-led demonstrations at the front of the classroom.
+        </li>
+        <li>
+          Combined traditional lecture slides with live handwritten examples to illustrate stepby-step statistical reasoning and problem solving
+        </li>
+        <li>
+          Maintained comprehensive course resources by posting lecture slides, written notes, and recorded lectures to support student review and accessibility
+        </li>
+        <li>
+          Curated additional learning resources, including external videos and online materials, to provide students with multiple pathways for engaging with course concepts.
+        </li>
+      </ul>
+  - role: Graduate Student Teaching Assistant
+    org: University of California, Irvine
+    start: 2022-09-01
+    end: 2025-06-01
+    summary: |
+      <ul>
+        <li>
+          Assisted in the instruction of undergraduate courses, including preparing and delivering lectures, leading lab sessions, and facilitating class discussions.
+        </li>
+        <li>
+          Provided guest lectures on specialized topics including Bias in AI, Programming Environment Setup, Monte Carlo Simulations, and Data Analysis & Visualization.
+        </li>
+        <li>
+          Developed and graded assignments, quizzes, and examinations to assess student learning and progress.
+        </li>
+        <li>
+          Held weekly office hours to provide academic support and mentorship to students.
+        </li>
+      </ul>
 #  - role: Full-Stack Developer
 #    org: Startup Inc
 #    start: 2021-06-01

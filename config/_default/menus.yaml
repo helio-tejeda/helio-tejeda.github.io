@@ -6,7 +6,7 @@ main:
   #- name: Projects
   #  url: /#projects
   #  weight: 10
-  - name: Education
+  - name: Experience & Education
     url: /#experience
     weight: 20
   - name: Skills
