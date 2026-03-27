@@ -47,51 +47,29 @@ sections:
       spacing:
         padding: ["6rem", "0", "4rem", "0"]
 
+  #- block: stats
+  #  content:
+  #    items:
+  #      - statistic: "$2.5M"
+  #        description: Funding raised
+  #        icon: hero/banknotes
+  #      - statistic: "10K+"
+  #        description: Active users
+  #        icon: hero/users
+  #      - statistic: "98.5%"
+  #        description: Uptime reliability
+  #        icon: hero/chart-line
+  #  design:
+  #    layout: minimal
+
   # Experience Timeline
   - block: resume-experience
     id: experience
     content:
       title: Experience
       # Change this to true to list Education first
-      #is_education_first: true
+      is_education_first: true
       date_format: Jan 2006
-      items:
-        #- title: Senior Software Engineer
-        #  company: Tech Corp
-        #  company_url: ''
-        #  company_logo: ''
-        #  location: San Francisco, CA
-        #  date_start: '2023-01-01'
-        #  date_end: ''
-        #  description: |2-
-        #    * Lead development of microservices architecture serving 1M+ users
-        #    * Improved API response time by 40% through optimization
-        #    * Mentored team of 5 junior developers
-        #    * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
-          company_url: ''
-          company_logo: ''
-          location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
-          description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
-          company_url: ''
-          company_logo: ''
-          location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
-          description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
     design:
       columns: '1'
       background:
@@ -238,28 +216,63 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
 
-  ## Recent Blog Posts
+  - block: resume-languages
+    content:
+      title: Languages
+      username: me
+    design:
+      style: grid
+      show_levels: false
+      background:
+        color:
+          light: "#f5f5f5"
+          dark: "#08080c"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+
+  # Recent Blog Posts
+  - block: collection
+    id: news
+    content:
+      title: News
+      #subtitle: 'Thoughts on web development, tech, and more'
+      text: ''
+      filters:
+        folders:
+          - news
+        exclude_featured: false
+      count: 1
+      order: desc
+    design:
+      view: card
+      columns: 3
+      #background:
+      #  color:
+      #    light: "#f5f5f5"
+      #    dark: "#08080c"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
   #- block: collection
-  #  id: blog
+  #  id: papers
   #  content:
-  #    title: Recent Posts
-  #    subtitle: 'Thoughts on web development, tech, and more'
+  #    title: Featured Publications
+  #    filters:
+  #      folders:
+  #        - publications
+  #      featured_only: true
+  #  design:
+  #    view: article-grid
+  #    columns: 2
+  #- block: collection
+  #  content:
+  #    title: Recent Publications
   #    text: ''
   #    filters:
   #      folders:
-  #        - blog
+  #        - publications
   #      exclude_featured: false
-  #    count: 3
-  #    order: desc
   #  design:
-  #    view: card
-  #    columns: 3
-  #    background:
-  #      color:
-  #        light: "#f5f5f5"
-  #        dark: "#08080c"
-  #    spacing:
-  #      padding: ["4rem", "0", "4rem", "0"]
+  #    view: citation
   
   # Contact Section
   - block: contact-info
@@ -282,26 +295,26 @@ sections:
         padding: ["4rem", "0", "4rem", "0"]
   
   # CTA Card
-  - block: cta-card
-    content:
-      title: "Open to Opportunities"
-      text: |-
-        I'm looking for **Assistant Professor**, **Teaching Professor**, or **Postdoc** roles.
-        <br />
-        Let's connect!
-      button:
-        text: 'Download Resume'
-        url: uploads/Heliodoro Tejeda - CV.pdf
-        new_tab: true
-    design:
-      card:
-        # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
-        css_class: 'bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700'
-        text_color: dark
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-      spacing:
-        padding: ["4rem", "0", "6rem", "0"]
+  #- block: cta-card
+  #  content:
+  #    title: "Open to Opportunities"
+  #    text: |-
+  #      I'm looking for **Assistant Professor**, **Teaching Professor**, or **Postdoc** roles.
+  #      <br />
+  #      Let's connect!
+  #    button:
+  #      text: 'Download Resume'
+  #      url: uploads/Heliodoro Tejeda - CV.pdf
+  #      new_tab: true
+  #  design:
+  #    card:
+  #      # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
+  #      css_class: 'bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700'
+  #      text_color: dark
+  #    background:
+  #      color:
+  #        light: "#f5f5f5"
+  #        dark: "#08080c"
+  #    spacing:
+  #      padding: ["4rem", "0", "6rem", "0"]
 ---
