@@ -33,7 +33,7 @@ main:
     weight: 10
   - name: Publications
     parent: Research
-    url: /#
+    url: /publications
     weight: 20
   - name: Collaborators
     parent: Research
