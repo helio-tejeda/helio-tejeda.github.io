@@ -23,12 +23,13 @@ links:
   - icon: at-symbol
     url: mailto:htejeda@uci.edu
     label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/heliotl
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/heliodoro-tejeda-lemus/
-  #- icon: brands/x
-  #  url: https://x.com/alexjohnson
+  - icon: brands/github
+    url: https://github.com/heliotl
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=EKvwKb4AAAAJ&hl=en
+          
 
 interests:
   - Cognitive Science
@@ -171,5 +172,11 @@ languages:
   - name: English
     level: 5
     label: Native
+  - name: Spanish
+    level: 4.5
+    label: Native
+  - name: French
+    level: 1.5
+    label: Elementary
 
 awards: []
