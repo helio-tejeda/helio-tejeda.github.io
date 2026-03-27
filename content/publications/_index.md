@@ -9,17 +9,23 @@ design:
 
 # Page sections
 sections:
-  #- block: collection
-  #  id: papers
-  #  content:
-  #    title: Featured Publications
-  #    filters:
-  #      folders:
-  #        - publications
-  #      featured_only: true
-  #  design:
-  #    view: article-grid
-  #    columns: 2
+  - block: collection
+    id: papers
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publications
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 3
+      background:
+        color:
+          light: "#ffffff"
+          dark: "#0d0d12"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
   - block: collection
     content:
       title: Publications
@@ -32,4 +38,10 @@ sections:
         exclude_featured: false
     design:
       view: citation
+      background:
+        color:
+          light: "#f5f5f5"
+          dark: "#08080c"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
 ---

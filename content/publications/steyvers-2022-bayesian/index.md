@@ -10,6 +10,8 @@ publishDate: '2026-03-27T04:46:38.242769Z'
 publication_types:
 - article-journal
 publication: '*Proceedings of the National Academy of Sciences*'
+# Display this page in the Featured widget?
+featured: true
 # Custom links
 links:
   - type: pdf
