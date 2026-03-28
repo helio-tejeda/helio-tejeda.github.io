@@ -44,7 +44,7 @@ main:
     weight: 40
   - name: TA
     parent: Teaching
-    url: /#
+    url: /teaching/TA
     weight: 10
   - name: Courses
     parent: Teaching
