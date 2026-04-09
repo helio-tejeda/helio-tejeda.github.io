@@ -38,7 +38,7 @@ sections:
         #  funding: $2.5M
         #  cta:
         #    text: Learn More
-        #    url: /teaching/TA/cogs112r
+        #    url: /teaching/ta/cogs112r
         #######################################################################
         # 3rd Year PhD
         #######################################################################
@@ -57,7 +57,7 @@ sections:
             - LEGO
           cta:
             text: Learn More
-            url: /teaching/TA/cogs112r
+            url: /teaching/ta/cogs112r
         #   Spring Quarter
         - name: |
             PSYCH 149:
@@ -73,7 +73,7 @@ sections:
             - Society
           cta:
             text: Learn More
-            url: /teaching/TA/psych149
+            url: /teaching/ta/psych149
         #   Summer Session I
         - name: |
             COGS 10A/PSYCH 10A:
@@ -88,7 +88,7 @@ sections:
             - Programming
           cta:
             text: Learn More
-            url: /teaching/TA/cogs10a
+            url: /teaching/ta/cogs10a
         #   Summer Session II
         - name: |
             PSYCH 160D/COGS 160D/BIO SCI N165:
@@ -102,7 +102,7 @@ sections:
             - Brain Disorders
           cta:
             text: Learn More
-            url: /teaching/TA/psych160d
+            url: /teaching/ta/psych160d
         #######################################################################
         # 4th Year PhD
         #######################################################################
@@ -120,7 +120,7 @@ sections:
             - Human Behavior
           cta:
             text: Learn More
-            url: /teaching/TA/psych119
+            url: /teaching/ta/psych119
         #   Winter Quarter
         - name: |
             COGS 112R/PSYCH 112R:
@@ -136,7 +136,7 @@ sections:
             - LEGO
           cta:
             text: Learn More
-            url: /teaching/TA/cogs112r
+            url: /teaching/ta/cogs112r
         #   Spring Quarter
         - name: |
             PSYCH 149:
@@ -152,7 +152,7 @@ sections:
             - Society
           cta:
             text: Learn More
-            url: /teaching/TA/psych149
+            url: /teaching/ta/psych149
         #######################################################################
         # 5th Year PhD
         #######################################################################
@@ -171,7 +171,7 @@ sections:
             - LEGO
           cta:
             text: Learn More
-            url: /teaching/TA/cogs112r
+            url: /teaching/ta/cogs112r
         #   Winter Quarter
         - name: |
             COGS 130A/PSYCH 130A:
@@ -186,7 +186,7 @@ sections:
             - Vision
           cta:
             text: Learn More
-            url: /teaching/TA/cogs130a
+            url: /teaching/ta/cogs130a
         #   Spring Quarter
         - name: |
             PSYCH 119:
@@ -201,7 +201,7 @@ sections:
             - Human Behavior
           cta:
             text: Learn More
-            url: /teaching/TA/psych119
+            url: /teaching/ta/psych119
         #   Summer Session I
         - name: |
             PSYCH 7A:
@@ -216,7 +216,7 @@ sections:
             - Human Development
           cta:
             text: Learn More
-            url: /teaching/TA/psych7a
+            url: /teaching/ta/psych7a
         #   Summer Session I
         - name: |
             PSYCH 129:
@@ -230,7 +230,7 @@ sections:
             - Music
           cta:
             text: Learn More
-            url: /teaching/TA/psych129
+            url: /teaching/ta/psych129
     design:
       layout: cards
       #view: article-grid
