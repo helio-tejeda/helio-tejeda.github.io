@@ -1,7 +1,7 @@
 ---
 title: "Dissertation Defense"
 #date: 2026-03-26
-summary: "I will be defending soon..."
+summary: "03 June 2026 @ 10:00am PST (Location TBD)"
 tags:
   - Human-AI Collaboration
   - AI-Assisted Decision-Making
