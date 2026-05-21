@@ -1,6 +1,6 @@
 ---
 title: "Dissertation Defense"
-date: 2026-03-26
+#date: 2026-03-26
 summary: "I will be defending soon..."
 tags:
   - Human-AI Collaboration
@@ -14,11 +14,14 @@ featured: true
 sharing: false
 ---
 
-## Defense Date
+## Defense Information
 
-My defense will be scheduled soon...
+<b>Date</b>: 03 June 2026 @ 10am PST
+<br />
+<b>Location</b>: TBD
 
-<!--
+## Countdown
+
 <div id="countdown-container">
   <div id="countdown">
     <div><span id="days">00</span><small>Days</small></div>
@@ -48,20 +51,20 @@ My defense will be scheduled soon...
 
   #countdown span {
     display: block;
-    font-size: 2.5rem;
+    font-size: 5rem;
     font-weight: bold;
-    color: #333;
+    color: #fff;
   }
 
   #countdown small {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #777;
   }
 </style>
 
 <script>
   // 🔧 CHANGE THIS DATE/TIME (YYYY-MM-DDTHH:MM:SS)
-  const targetDate = new Date("2026-06-15T23:59:59");
+  const targetDate = new Date("2026-06-03T10:00:00-07:00");
 
   function updateCountdown() {
     const now = new Date();
@@ -86,4 +89,3 @@ My defense will be scheduled soon...
   updateCountdown();
   setInterval(updateCountdown, 1000);
 </script>
--->
