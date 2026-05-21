@@ -1,6 +1,6 @@
 ---
 title: "Dissertation Defense"
-#date: 2026-03-26
+date: 2026-05-20
 summary: "03 June 2026 @ 10:00am PST (Location TBD)"
 tags:
   - Human-AI Collaboration
@@ -8,6 +8,10 @@ tags:
   - Dissertation
   - Defense
   - Ph.D. Candidate
+links:
+  - type: github
+    url: https://forms.gle/3rkREyqCNNc52oDa9
+    label: Sign-Up for Notifications
 authors:
   - me
 featured: true
@@ -15,6 +19,8 @@ sharing: false
 ---
 
 ## Defense Information
+
+{{< button url="https://forms.gle/3rkREyqCNNc52oDa9" align="center" style="outline" icon="academic-cap-solid" new_tab="true" >}}Click to Sign Up for Notifications{{< /button >}}
 
 <b>Date</b>: 03 June 2026 @ 10am PST
 <br />
