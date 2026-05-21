@@ -20,7 +20,7 @@ sharing: false
 
 ## Defense Information
 
-{{< button url="https://forms.gle/3rkREyqCNNc52oDa9" align="center" style="outline" icon="academic-cap-solid" new_tab="true" >}}Click to Sign Up for Notifications{{< /button >}}
+{{< button url="https://forms.gle/3rkREyqCNNc52oDa9" align="center" style="outline" icon="academic-cap-solid" new_tab="true" >}}Click to Sign-Up for Notifications{{< /button >}}
 
 <b>Date</b>: 03 June 2026 @ 10am PST
 <br />
